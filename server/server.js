@@ -7,3 +7,10 @@ const typeDefs = gql`
     greeting: String
   }
 `;
+
+// resolvers
+const resolvers = {
+  Query: {
+    greeting: () => 'Hello GraphQL world',
+  },
+};
